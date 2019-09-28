@@ -1,0 +1,205 @@
+/**Head**/
+h2, h3, h4, h6 {
+  color: #026670;
+  font-family: 'Zilla Slab', serif;
+  font-weight: 800;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #026670;
+  font-family: 'Zilla Slab', serif;
+  font-weight: 800;
+}
+
+a, li a, ul a, ol a {
+  color: #014147;
+}
+
+a:hover {
+  color: #026670;
+}
+
+h1 {
+  font-size: 5.6rem;
+  color: #026670;
+  font-family: 'Sacramento', cursive;
+  font-weight: 800;
+}
+
+strong {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+}
+
+p, div, em, li, ul, ol, th, tr, td {
+  color: #3B3B3B;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+/**Header Section**/
+.headline {
+  text-align: center;
+  background: no-repeat url('Images/backgrs-comp.jpg');
+  z-index: 4;
+}
+
+.headline .container {
+  padding: 22rem 0;
+}
+
+.head1 {
+  font-family: monospace;
+}
+
+.head1 span {
+  color: #00FF00;
+  background-color: #000;
+}
+
+.head2 {
+  font-family: 'Sacramento', cursive;
+  margin: 1rem;
+}
+
+.lead {
+  color: #026670;
+}
+
+/*Nav Bar*/
+
+.nav-item {
+  padding: 0 14px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/*About Section*/
+.profile {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.about {
+  background-color: #ffffff;
+  padding: 4rem 0;
+}
+
+.row {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.col-lg-3 {
+  margin-bottom: 2rem;
+}
+
+.liIcon {
+  margin-top: 30px;
+}
+
+/*Skills and Education Sections*/
+.alt-color {
+  margin: 0;
+  background-color: #edeae5;
+  padding: 2rem 0;
+}
+
+.skills {
+  padding: 2rem 0;
+  margin: 2rem auto;
+  line-height: 1.5;
+}
+
+.skillsIco {
+  margin-left: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  width: 15%;
+  border-color: #9fedd7;
+  opacity: 0.8;
+  margin: 1.5rem auto;
+}
+
+.education {
+  padding: 2rem 0;
+  margin: 2rem auto;
+}
+
+.eduIcon {
+  margin-right: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+/*Experience Section*/
+.exp {
+  margin: 4rem auto 4rem auto;
+  padding: 2rem 0;
+  line-height: 1.5;
+}
+
+.title {
+  padding-bottom: 1rem;
+}
+
+.titles {
+  margin-bottom: .3rem;
+}
+
+.btn {
+  margin: .5rem .5rem .5rem 0;
+}
+
+.btn i {
+  padding-right: 7px;
+}
+
+.btn-info {
+  background-color: #026670;
+  border-color: #026670;
+}
+
+.btn-info a {
+  color: #fff;
+}
+
+.btn a:hover {
+  text-decoration: none;
+}
+
+.col-lg-9 {
+  padding-left: 4rem;
+}
+
+.col-lg {
+  padding-bottom: 1rem;
+}
+
+/*Footer*/
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  background-color: #026670;
+  text-align: center;
+  width: 100%;
+
+}
+
+.cr {
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding-top: 1rem;
+}
