@@ -63,8 +63,11 @@ body {
 }
 
 .head2 {
-  font-family: 'Sacramento', cursive;
   margin: 1rem;
+  font-size: 5.6rem;
+  color: #026670;
+  font-family: 'Sacramento', cursive;
+  font-weight: 800;
 }
 
 .lead {
@@ -94,8 +97,8 @@ body {
 }
 
 .row {
-  width: 50%;
-  margin: 0 auto;
+  width: 60%;
+  margin: 0 auto 0 auto!important;
   line-height: 1.5;
 }
 
@@ -163,6 +166,10 @@ hr {
   margin: .5rem .5rem .5rem 0;
 }
 
+.btn-light a {
+    color: #014147
+}
+
 .btn i {
   padding-right: 7px;
 }
@@ -176,8 +183,14 @@ hr {
   color: #fff;
 }
 
-.btn a:hover {
+.btn-info a:hover {
+  color: #fff;
+    text-decoration: none;
+}
+
+.btn-light a:hover {
   text-decoration: none;
+  color: #014147
 }
 
 .col-lg-9 {
