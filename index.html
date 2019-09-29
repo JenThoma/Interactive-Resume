@@ -8,10 +8,8 @@
   <link rel="stylesheet" href="style.css" />
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
   <!-- Icons -->
   <script src="https://kit.fontawesome.com/b0642bc660.js" crossorigin="anonymous"></script>
@@ -31,16 +29,6 @@
     }
     gtag('js', new Date());
     gtag('config', 'UA-148918653-1');
-  </script>
-  <script>
-    var captureOutboundLink = function(url) {
-      ga('send', 'event', 'outbound', 'click', url, {
-        'transport': 'beacon',
-        'hitCallback': function() {
-          document.location = url;
-        }
-      });
-    }
   </script>
 </head>
 
@@ -82,8 +70,7 @@
       <div class="col-lg-3">
         <center><img src="Images\JenThomaProfileImage.jpg" alt="Jen Thoma profile picture" class="profile" />
           <br />
-          <a href="https://www.linkedin.com/in/jennifer-thoma" target="_blank" onclick="captureOutboundLink('https://www.linkedin.com/in/jennifer-thoma'); return false;"><img class="liIcon" src="Images\li-logosmall.png" target="_blank"
-              alt="linkedin icon"></a></center>
+          <a href="https://www.linkedin.com/in/jennifer-thoma" target="_blank"><img class="liIcon" src="Images\li-logosmall.png" target="_blank" alt="linkedin icon"></a></center>
       </div>
       <div class="col-lg-9">
         <h2 class="title">About Me</h2>
@@ -122,8 +109,7 @@
           <p><strong>Google</strong> - <a href="https://analytics.google.com/analytics/academy/certificate/z2fPXW_CTJO7-IMTAqyKqw" target="_blank">Google Analytics for Beginners</a>, <a
               href="https://analytics.google.com/analytics/academy/certificate/3O3JxW9CT0K1Dq7R-Dpwnw" target="_blank">Advanced Google Analytics</a>, <a href="https://analytics.google.com/analytics/academy/certificate/HHHCDcyeQ_uu-ykE9qSYEg"
               target="_blank">Google Tag Manager</a></p>
-          <p><strong><a href="https://www.linkedin.com/in/jennifer-thoma" target="_blank" onclick="captureOutboundLink('https://www.linkedin.com/in/jennifer-thoma'); return false;">LinkedIn</a></strong> (Lynda) - SQL Essential Training, Trello
-            Essential Training, Scrum: The Basics</p>
+          <p><strong><a href="https://www.linkedin.com/in/jennifer-thoma" target="_blank">LinkedIn</a></strong> (Lynda) - SQL Essential Training, Trello Essential Training, Scrum: The Basics</p>
         </div>
       </div>
     </div>
@@ -138,10 +124,8 @@
       <div class="col-lg-9">
         <h2 class="title">Experience</h2>
         <p>Here's my relevant work history. For my full resume, view or download it below</p>
-        <button type="button" class="btn btn-info btn-lg"><a href="https://drive.google.com/open?id=11XT2kYMHAJpDEmXhSKTWhLb1IxqzP9s5" target="_blank"
-            onclick="captureOutboundLink('https://drive.google.com/open?id=11XT2kYMHAJpDEmXhSKTWhLb1IxqzP9s5'); return false;"><i class="fas fa-external-link-alt"></i>View</a></button><button type="button" class="btn btn-info btn-lg"><a
-            href="https://drive.google.com/uc?export=download&id=11XT2kYMHAJpDEmXhSKTWhLb1IxqzP9s5" download="Jen Thoma Resume.pdf"
-            onclick="captureOutboundLink('https://drive.google.com/uc?export=download&id=11XT2kYMHAJpDEmXhSKTWhLb1IxqzP9s5'); return false;"><i class="fas fa-file-download"></i>Download</a></button>
+        <button type="button" class="btn btn-info btn-lg"><a href="https://drive.google.com/open?id=11XT2kYMHAJpDEmXhSKTWhLb1IxqzP9s5" target="_blank"><i class="fas fa-external-link-alt"></i>View</a></button><button type="button" class="btn btn-info btn-lg"><a
+            href="https://drive.google.com/uc?export=download&id=11XT2kYMHAJpDEmXhSKTWhLb1IxqzP9s5" download="Jen Thoma Resume.pdf"><i class="fas fa-file-download"></i>Download</a></button>
       </div>
     </div>
     <div class="row">
@@ -160,12 +144,17 @@
       </div>
     </div>
   </div>
+
+  <!--Bootstrap-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 <footer>
   <!--Footer Section-->
   <div class="footer" id="contact">
-    <button type="button" class="btn btn-light btn-lg"><a href="https://www.linkedin.com/in/jennifer-thoma" target="_blank" onclick="captureOutboundLink('https://www.linkedin.com/in/jennifer-thoma'); return false;"><i
+    <button type="button" class="btn btn-light btn-lg"><a href="https://www.linkedin.com/in/jennifer-thoma" target="_blank"><i
           class="fab fa-linkedin"></i>LinkedIn</a></button>
     <button type="button" class="btn btn-light btn-lg"><a href="https://github.com/JenThoma" target="_blank"><i class="fab fa-github-square"></i>GitHub</a></button>
     <button type="button" class="btn btn-light btn-lg"><a href="https://m.me/theincrediblezombiesaurus" target="_blank"><i class="fab fa-facebook-messenger"></i>Messenger</a></button>
@@ -173,5 +162,4 @@
     <p class="cr">© 2019 Jen Thoma</p>
   </div>
 </footer>
-
 </html>
