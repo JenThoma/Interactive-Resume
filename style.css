@@ -17,6 +17,7 @@ a, li a, ul a, ol a {
 
 a:hover {
   color: #026670;
+  text-decoration: none;
 }
 
 h1 {
@@ -46,7 +47,6 @@ body {
 .headline {
   text-align: center;
   background: no-repeat url('Images/backgrs-comp.jpg');
-  z-index: 4;
 }
 
 .headline .container {
@@ -98,7 +98,7 @@ body {
 
 .row {
   width: 60%;
-  margin: 0 auto 0 auto!important;
+  margin: 0 auto 0 auto;
   line-height: 1.5;
 }
 
@@ -158,6 +158,10 @@ hr {
   padding-bottom: 1rem;
 }
 
+.exp1 {
+  padding-left: 2.5rem;
+}
+
 .titles {
   margin-bottom: .3rem;
 }
@@ -167,7 +171,11 @@ hr {
 }
 
 .btn-light a {
-    color: #014147
+  color: #014147;
+}
+
+.btn-light a:hover {
+  color: #014147;
 }
 
 .btn i {
@@ -179,18 +187,8 @@ hr {
   border-color: #026670;
 }
 
-.btn-info a {
+.btn-info a, a:hover {
   color: #fff;
-}
-
-.btn-info a:hover {
-  color: #fff;
-    text-decoration: none;
-}
-
-.btn-light a:hover {
-  text-decoration: none;
-  color: #014147
 }
 
 .col-lg-9 {
@@ -199,6 +197,21 @@ hr {
 
 .col-lg {
   padding-bottom: 1rem;
+}
+
+.portfolio {
+  padding-left: 2.5rem;
+}
+
+.row-p {
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto 0 auto;
+line-height: 1.5;
+}
+
+.card-title {
+  font-weight: 700;
 }
 
 /*Footer*/
