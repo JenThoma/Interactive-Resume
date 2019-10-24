@@ -1,4 +1,4 @@
-/**Head**/
+/**Site-wide**/
 h2, h3, h4, h6 {
   color: #026670;
   font-family: 'Zilla Slab', serif;
@@ -53,16 +53,7 @@ body {
   padding: 22rem 0;
 }
 
-.head1 {
-  font-family: monospace;
-}
-
-.head1 span {
-  color: #00FF00;
-  background-color: #000;
-}
-
-.head2 {
+.head {
   margin: 1rem;
   font-size: 5.6rem;
   color: #026670;
@@ -123,8 +114,7 @@ body {
   line-height: 1.5;
 }
 
-.skillsIco {
-  margin-left: 2rem;
+.skillsIcon {
   max-width: 100%;
   height: auto;
 }
@@ -142,7 +132,6 @@ hr {
 }
 
 .eduIcon {
-  margin-right: 2rem;
   max-width: 100%;
   height: auto;
 }
